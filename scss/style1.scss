@@ -14,7 +14,6 @@ body{
     width: 270px;
     padding-top: 20px;
 }
-
 .time{
     padding-left: 15px;
 }
@@ -26,16 +25,14 @@ body{
     margin-right: 5px;
    padding-left: 2px;
 }
-.inner1{
-    float:left;
+.speakers{
+    width: 400px;
+}
+.speakers-outerfloat{
+    float: left;
     width: 50%;
 }
-.speakerdetails{
-    h3,p{
-    font-size: 10px;
-    }
-}
-#speakerfloat{
+.speakers-innerfloat{
     float: left;
     width: 50%;
 }
@@ -242,6 +239,9 @@ img{
     .outer{
         padding-left: 20%;
         padding-top: 20px;
+    }
+    .speakers{
+        text-align: center;
     }
    
     
